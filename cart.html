@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart - StyleHub</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Same Navigation as index.html -->
+    <nav class="navbar">
+        <!-- ... copy navbar ... -->
+    </nav>
+
+    <main class="cart-container">
+        <div class="cart-header">
+            <h1>Shopping Cart</h1>
+            <span class="item-count">3 Items</span>
+        </div>
+
+        <div class="cart-content">
+            <!-- Cart Items Section -->
+            <div class="cart-items">
+                <!-- Cart Item 1 -->
+                <div class="cart-item">
+                    <div class="item-image">
+                        <img src="https://images.unsplash.com/photo-1576566588028-4147f3842f27" alt="Classic T-Shirt">
+                    </div>
+                    <div class="item-details">
+                        <div class="item-info">
+                            <h3>Classic Cotton T-Shirt</h3>
+                            <p class="item-variant">Color: Black | Size: M</p>
+                            <div class="item-price">
+                                <span class="current-price">$29.99</span>
+                                <span class="original-price">$39.99</span>
+                            </div>
+                        </div>
+                        <div class="item-actions">
+                            <div class="quantity-controls">
+                                <button class="qty-btn minus">
+                                    <i class="fas fa-minus"></i>
+                                </button>
+                                <input type="number" value="1" min="1" max="99">
+                                <button class="qty-btn plus">
+                                    <i class="fas fa-plus"></i>
+                                </button>
+                            </div>
+                            <button class="remove-btn">
+                                <i class="fas fa-trash"></i>
+                                Remove
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Cart Item 2 -->
+                <div class="cart-item">
+                    <div class="item-image">
+                        <img src="https://images.unsplash.com/photo-1591047139829-d91aecb6caea" alt="Leather Jacket">
+                    </div>
+                    <div class="item-details">
+                        <div class="item-info">
+                            <h3>Premium Leather Jacket</h3>
+                            <p class="item-variant">Color: Brown | Size: L</p>
+                            <div class="item-price">
+                                <span class="current-price">$199.99</span>
+                            </div>
+                        </div>
+                        <div class="item-actions">
+                            <div class="quantity-controls">
+                                <button class="qty-btn minus">
+                                    <i class="fas fa-minus"></i>
+                                </button>
+                                <input type="number" value="1" min="1" max="99">
+                                <button class="qty-btn plus">
+                                    <i class="fas fa-plus"></i>
+                                </button>
+                            </div>
+                            <button class="remove-btn">
+                                <i class="fas fa-trash"></i>
+                                Remove
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Order Summary Section -->
+            <div class="order-summary">
+                <h2>Order Summary</h2>
+                
+                <div class="summary-items">
+                    <div class="summary-item">
+                        <span>Subtotal</span>
+                        <span>$229.98</span>
+                    </div>
+                    <div class="summary-item">
+                        <span>Shipping</span>
+                        <span>$5.99</span>
+                    </div>
+                    <div class="summary-item">
+                        <span>Tax</span>
+                        <span>$23.00</span>
+                    </div>
+                    <div class="summary-item discount">
+                        <span>Discount</span>
+                        <span>-$10.00</span>
+                    </div>
+                </div>
+
+                <div class="promo-code">
+                    <input type="text" placeholder="Enter promo code">
+                    <button>Apply</button>
+                </div>
+
+                <div class="total-amount">
+                    <span>Total</span>
+                    <span>$248.97</span>
+                </div>
+
+                <button class="checkout-btn">
+                    Proceed to Checkout
+                    <i class="fas fa-arrow-right"></i>
+                </button>
+
+                <div class="payment-methods">
+                    <p>We Accept:</p>
+                    <div class="payment-icons">
+                        <i class="fab fa-cc-visa"></i>
+                        <i class="fab fa-cc-mastercard"></i>
+                        <i class="fab fa-cc-amex"></i>
+                        <i class="fab fa-cc-paypal"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Recommended Products -->
+        <section class="recommended-products">
+            <h2>You May Also Like</h2>
+            <div class="product-slider">
+                <!-- Product cards will go here -->
+            </div>
+        </section>
+    </main>
+
+    <!-- Same Footer as index.html -->
+    <footer class="modern-footer">
+        <!-- ... copy footer ... -->
+    </footer>
+</body>
+</html> 

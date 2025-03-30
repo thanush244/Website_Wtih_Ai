@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart - StyleHub</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/cart.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <main class="cart-page">
+        <div class="container">
+            <header class="cart-header">
+                <h1>Shopping Cart <span class="item-count">(3 items)</span></h1>
+                <a href="../pages/shop/index.html" class="continue-shopping">
+                    <i class="fas fa-arrow-left"></i>
+                    Continue Shopping
+                </a>
+            </header>
+
+            <div class="cart-layout">
+                <!-- Cart Items Section -->
+                <div class="cart-items">
+                    <!-- Cart Item 1 -->
+                    <div class="cart-item">
+                        <div class="item-image">
+                            <img src="../assets/products/product1.jpg" alt="Premium Cotton T-Shirt">
+                        </div>
+                        <div class="item-details">
+                            <div class="item-info">
+                                <h3>Premium Cotton T-Shirt</h3>
+                                <p class="item-meta">Color: Black | Size: M</p>
+                                <div class="item-price">
+                                    <span class="current-price">$49.99</span>
+                                    <span class="original-price">$69.99</span>
+                                </div>
+                            </div>
+                            <div class="item-actions">
+                                <div class="quantity-controls">
+                                    <button class="qty-btn minus">-</button>
+                                    <input type="number" value="1" min="1" max="10">
+                                    <button class="qty-btn plus">+</button>
+                                </div>
+                                <button class="remove-item">
+                                    <i class="far fa-trash-alt"></i>
+                                    Remove
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Cart Item 2 -->
+                    <div class="cart-item">
+                        <div class="item-image">
+                            <img src="../assets/products/product2.jpg" alt="Slim Fit Jeans">
+                        </div>
+                        <div class="item-details">
+                            <div class="item-info">
+                                <h3>Slim Fit Jeans</h3>
+                                <p class="item-meta">Color: Blue | Size: 32</p>
+                                <div class="item-price">
+                                    <span class="current-price">$79.99</span>
+                                </div>
+                            </div>
+                            <div class="item-actions">
+                                <div class="quantity-controls">
+                                    <button class="qty-btn minus">-</button>
+                                    <input type="number" value="1" min="1" max="10">
+                                    <button class="qty-btn plus">+</button>
+                                </div>
+                                <button class="remove-item">
+                                    <i class="far fa-trash-alt"></i>
+                                    Remove
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Cart Item 3 -->
+                    <div class="cart-item">
+                        <div class="item-image">
+                            <img src="../assets/products/product3.jpg" alt="Classic Watch">
+                        </div>
+                        <div class="item-details">
+                            <div class="item-info">
+                                <h3>Classic Watch</h3>
+                                <p class="item-meta">Color: Silver</p>
+                                <div class="item-price">
+                                    <span class="current-price">$129.99</span>
+                                    <span class="original-price">$159.99</span>
+                                </div>
+                            </div>
+                            <div class="item-actions">
+                                <div class="quantity-controls">
+                                    <button class="qty-btn minus">-</button>
+                                    <input type="number" value="1" min="1" max="10">
+                                    <button class="qty-btn plus">+</button>
+                                </div>
+                                <button class="remove-item">
+                                    <i class="far fa-trash-alt"></i>
+                                    Remove
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Order Summary -->
+                <div class="order-summary">
+                    <h2>Order Summary</h2>
+                    
+                    <div class="promo-code">
+                        <input type="text" placeholder="Enter promo code">
+                        <button class="apply-btn">Apply</button>
+                    </div>
+
+                    <div class="summary-details">
+                        <div class="summary-row">
+                            <span>Subtotal</span>
+                            <span>$259.97</span>
+                        </div>
+                        <div class="summary-row">
+                            <span>Shipping</span>
+                            <span>Free</span>
+                        </div>
+                        <div class="summary-row">
+                            <span>Tax</span>
+                            <span>$20.80</span>
+                        </div>
+                        <div class="summary-row total">
+                            <span>Total</span>
+                            <span>$280.77</span>
+                        </div>
+                    </div>
+
+                    <button class="checkout-btn">
+                        Proceed to Checkout
+                        <i class="fas fa-arrow-right"></i>
+                    </button>
+
+                    <div class="payment-methods">
+                        <p>We Accept:</p>
+                        <div class="payment-icons">
+                            <i class="fab fa-cc-visa"></i>
+                            <i class="fab fa-cc-mastercard"></i>
+                            <i class="fab fa-cc-amex"></i>
+                            <i class="fab fa-cc-paypal"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Recently Viewed -->
+            <section class="recently-viewed">
+                <h2>Recently Viewed</h2>
+                <div class="products-grid">
+                    <!-- Product cards will be added here -->
+                </div>
+            </section>
+        </div>
+    </main>
+</body>
+</html> 

@@ -1,0 +1,857 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StyleHub - Your Fashion Destination</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="top-bar">
+            <div class="container">
+                <div class="top-bar-left">
+                    <a href="#" class="store-locator"><i class="fas fa-map-marker-alt"></i> Store Locator</a>
+                    <a href="#" class="track-order"><i class="fas fa-truck"></i> Track Order</a>
+                </div>
+                <div class="top-bar-right">
+                    <a href="auth.html" class="login"><i class="fas fa-user"></i> Login</a>
+                    <a href="#" class="wishlist"><i class="fas fa-heart"></i> Wishlist</a>
+                </div>
+            </div>
+        </div>
+        <div class="main-header">
+            <div class="container">
+                <div class="logo">
+                    <a href="index.html">
+                        <div class="logo-container">
+                            <div class="logo-image">
+                                <img src="images/stylehub-logo.svg" alt="StyleHub Logo" class="logo-svg">
+                            </div>
+                            <div class="logo-text">
+                                <span class="logo-name">StyleHub</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <nav class="main-nav">
+                    <ul>
+                        <li class="has-mega-menu">
+                            <a href="shop.html">Shop</a>
+                            <div class="mega-menu">
+                                <div class="mega-menu-content">
+                                    <div class="mega-menu-column">
+                                        <h3>Smart Watches</h3>
+                                        <ul>
+                                            <li><a href="#">Reflex 3.0</a></li>
+                                            <li><a href="#">Reflex 2.0</a></li>
+                                            <li><a href="#">Reflex 1.0</a></li>
+                                            <li><a href="#">View All</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="mega-menu-column">
+                                        <h3>Bags</h3>
+                                        <ul>
+                                            <li><a href="#">Backpacks</a></li>
+                                            <li><a href="#">Laptop Bags</a></li>
+                                            <li><a href="#">Sling Bags</a></li>
+                                            <li><a href="#">View All</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="mega-menu-column">
+                                        <h3>Sunglasses</h3>
+                                        <ul>
+                                            <li><a href="#">Aviator</a></li>
+                                            <li><a href="#">Wayfarer</a></li>
+                                            <li><a href="#">Round</a></li>
+                                            <li><a href="#">View All</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="has-mega-menu">
+                            <a href="collection.html">Collections</a>
+                            <div class="mega-menu">
+                                <div class="mega-menu-content">
+                                    <div class="mega-menu-column">
+                                        <h3>Seasonal</h3>
+                                        <ul>
+                                            <li><a href="#">Summer 2024</a></li>
+                                            <li><a href="#">Spring Essentials</a></li>
+                                            <li><a href="#">Winter Collection</a></li>
+                                            <li><a href="#">All Seasons</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="mega-menu-column">
+                                        <h3>Special Lines</h3>
+                                        <ul>
+                                            <li><a href="#">Premium Collection</a></li>
+                                            <li><a href="#">Designer Series</a></li>
+                                            <li><a href="#">Limited Edition</a></li>
+                                            <li><a href="#">Exclusive Drops</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="mega-menu-column">
+                                        <h3>Style</h3>
+                                        <ul>
+                                            <li><a href="#">Urban Chic</a></li>
+                                            <li><a href="#">Casual Comfort</a></li>
+                                            <li><a href="#">Athletic</a></li>
+                                            <li><a href="#">Business Casual</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="has-mega-menu">
+                            <a href="categories.html">Categories</a>
+                            <div class="mega-menu">
+                                <div class="mega-menu-content">
+                                    <div class="mega-menu-column">
+                                        <h3>Wearables</h3>
+                                        <ul>
+                                            <li><a href="#">Smart Watches</a></li>
+                                            <li><a href="#">Fitness Trackers</a></li>
+                                            <li><a href="#">Smart Glasses</a></li>
+                                            <li><a href="#">View All</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="mega-menu-column">
+                                        <h3>Fashion</h3>
+                                        <ul>
+                                            <li><a href="#">Bags & Wallets</a></li>
+                                            <li><a href="#">Sunglasses</a></li>
+                                            <li><a href="#">Jewelry</a></li>
+                                            <li><a href="#">View All</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="mega-menu-column">
+                                        <h3>Accessories</h3>
+                                        <ul>
+                                            <li><a href="#">Phone Cases</a></li>
+                                            <li><a href="#">Headphones</a></li>
+                                            <li><a href="#">Wireless Earbuds</a></li>
+                                            <li><a href="#">View All</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="has-mega-menu">
+                            <a href="about.html">About Us</a>
+                            <div class="mega-menu">
+                                <div class="mega-menu-content">
+                                    <div class="mega-menu-column">
+                                        <h3>Our Company</h3>
+                                        <ul>
+                                            <li><a href="#">Our Story</a></li>
+                                            <li><a href="#">Our Team</a></li>
+                                            <li><a href="#">Careers</a></li>
+                                            <li><a href="#">Press & Media</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="mega-menu-column">
+                                        <h3>Core Values</h3>
+                                        <ul>
+                                            <li><a href="#">Sustainability</a></li>
+                                            <li><a href="#">Quality Commitment</a></li>
+                                            <li><a href="#">Social Responsibility</a></li>
+                                            <li><a href="#">Innovation</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="mega-menu-column">
+                                        <h3>Information</h3>
+                                        <ul>
+                                            <li><a href="#">Blog</a></li>
+                                            <li><a href="#">Store Locator</a></li>
+                                            <li><a href="#">Brand Partnerships</a></li>
+                                            <li><a href="#">FAQs</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="has-mega-menu">
+                            <a href="contact.html">Contact</a>
+                            <div class="mega-menu">
+                                <div class="mega-menu-content">
+                                    <div class="mega-menu-column">
+                                        <h3>Get In Touch</h3>
+                                        <ul>
+                                            <li><a href="#">Customer Support</a></li>
+                                            <li><a href="#">Technical Assistance</a></li>
+                                            <li><a href="#">Order Status</a></li>
+                                            <li><a href="#">Returns & Exchanges</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="mega-menu-column">
+                                        <h3>Business Inquiries</h3>
+                                        <ul>
+                                            <li><a href="#">Wholesale</a></li>
+                                            <li><a href="#">Partnerships</a></li>
+                                            <li><a href="#">Corporate Gifting</a></li>
+                                            <li><a href="#">Affiliate Program</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="mega-menu-column">
+                                        <h3>Our Locations</h3>
+                                        <ul>
+                                            <li><a href="#">Flagship Stores</a></li>
+                                            <li><a href="#">Regional Offices</a></li>
+                                            <li><a href="#">Distribution Centers</a></li>
+                                            <li><a href="#">International</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="header-actions">
+                    <a href="#" class="search-icon" id="searchToggle"><i class="fas fa-search"></i></a>
+                    <a href="cart.html" class="cart-icon">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span class="cart-count">0</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Search Overlay -->
+    <div class="search-overlay" id="searchOverlay">
+        <div class="container">
+            <form class="search-form">
+                <input type="text" placeholder="Search for products, brands and more">
+                <button type="submit"><i class="fas fa-search"></i></button>
+                <button type="button" class="close-search"><i class="fas fa-times"></i></button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-slider">
+            <div class="slide active">
+                <img src="images/hero-1.jpg" alt="StyleHub Fashion Collection">
+                <div class="slide-content">
+                    <span class="hero-subtitle">Exclusive Collection 2024</span>
+                    <h1>Where Style Meets Innovation</h1>
+                    <div class="hero-buttons">
+                        <a href="shop.html" class="cta-button primary">Explore Collection <i class="fas fa-arrow-right"></i></a>
+                        <a href="collection.html" class="cta-button secondary">View Lookbook</a>
+                    </div>
+                    <div class="hero-features">
+                        <div class="feature">
+                            <i class="fas fa-truck"></i>
+                            <span>Free Shipping</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-undo"></i>
+                            <span>Easy Returns</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-shield-alt"></i>
+                            <span>Secure Payment</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="images/hero-2.jpg" alt="StyleHub Accessories">
+                <div class="slide-content">
+                    <span class="hero-subtitle">New Arrivals</span>
+                    <h1>Accessorize Your Look</h1>
+                    <p>Complete your outfit with our premium accessories collection</p>
+                    <div class="hero-buttons">
+                        <a href="shop.html" class="cta-button primary">Explore</a>
+                        <a href="collection.html" class="cta-button secondary">View New Arrivals</a>
+                    </div>
+                    <div class="hero-features">
+                        <div class="feature">
+                            <i class="fas fa-gem"></i>
+                            <span>Premium Quality</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-tags"></i>
+                            <span>Special Offers</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-headset"></i>
+                            <span>24/7 Support</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="images/hero-3.jpg" alt="StyleHub Footwear">
+                <div class="slide-content">
+                    <span class="hero-subtitle">Limited Edition</span>
+                    <h1>Step in Style</h1>
+                    <p>Walk with confidence in our designer footwear collection</p>
+                    <div class="hero-buttons">
+                        <a href="shop.html" class="cta-button primary">Shop Now</a>
+                        <a href="collection.html" class="cta-button secondary">View Footwear</a>
+                    </div>
+                    <div class="hero-features">
+                        <div class="feature">
+                            <i class="fas fa-star"></i>
+                            <span>Premium Brands</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-percentage"></i>
+                            <span>Up to 50% OFF</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-sync"></i>
+                            <span>Easy Exchange</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slider-dots">
+                <span class="slider-dot active"></span>
+                <span class="slider-dot"></span>
+                <span class="slider-dot"></span>
+            </div>
+            <div class="slider-arrows">
+                <button class="slider-arrow prev"><i class="fas fa-chevron-left"></i></button>
+                <button class="slider-arrow next"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Categories -->
+    <section class="featured-categories">
+        <div class="container">
+            <div class="section-header">
+                <h2>Shop By Category</h2>
+                <p>Discover our curated collection of fashion essentials</p>
+            </div>
+            <div class="category-grid">
+                <div class="category-card">
+                    <img src="images/product-1.jpg" alt="Smart Watches">
+                    <div class="category-content">
+                        <span class="category-tag">Featured</span>
+                        <h3>Smart Watches</h3>
+                        <p>Discover our collection of cutting-edge smartwatches with advanced features.</p>
+                        <a href="#" class="category-link">Explore Collection</a>
+                    </div>
+                </div>
+                <div class="category-card">
+                    <img src="images/product-2.jpg" alt="Designer Bags">
+                    <div class="category-content">
+                        <span class="category-tag">Trending</span>
+                        <h3>Designer Bags</h3>
+                        <p>Luxury handbags and accessories from top designer brands.</p>
+                        <a href="#" class="category-link">Explore Collection</a>
+                    </div>
+                </div>
+                <div class="category-card">
+                    <img src="images/product-3.jpg" alt="Premium Accessories">
+                    <div class="category-content">
+                        <span class="category-tag">New Arrival</span>
+                        <h3>Premium Accessories</h3>
+                        <p>Elevate your style with our premium selection of accessories.</p>
+                        <a href="#" class="category-link">Explore Collection</a>
+                    </div>
+                </div>
+                <div class="category-card">
+                    <img src="images/product-4.jpg" alt="Limited Edition">
+                    <div class="category-content">
+                        <span class="category-tag">Limited</span>
+                        <h3>Limited Edition</h3>
+                        <p>Exclusive pieces for the discerning collector.</p>
+                        <a href="#" class="category-link">Explore Collection</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Products -->
+    <section class="featured-products">
+        <div class="container">
+            <div class="section-header">
+                <h2>Featured Products</h2>
+                <div class="product-tabs">
+                    <button class="tab-btn active" data-tab="all">All</button>
+                    <button class="tab-btn" data-tab="watches">Smart Watches</button>
+                    <button class="tab-btn" data-tab="bags">Bags</button>
+                    <button class="tab-btn" data-tab="accessories">Accessories</button>
+                </div>
+            </div>
+            <div class="product-grid">
+                <!-- Product Card 1 -->
+                <div class="product-card" data-aos="fade-up">
+                    <div class="product-image">
+                        <span class="product-badge">New</span>
+                        <img src="images/product-1.jpg" alt="Reflex 3.0 Smart Watch">
+                        <div class="product-actions">
+                            <button class="quickview-btn"><i class="fas fa-eye"></i></button>
+                            <button class="wishlist-btn"><i class="far fa-heart"></i></button>
+                            <button class="add-to-cart"><i class="fas fa-shopping-cart"></i></button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <div>
+                            <span class="product-category">Smart Watches</span>
+                            <h3 class="product-title">Reflex 3.0 Smart Watch</h3>
+                            <div class="product-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                                <span>(4.5)</span>
+                            </div>
+                            <div class="product-colors">
+                                <span class="color-option active" style="background: #2c3e50;"></span>
+                                <span class="color-option" style="background: #e74c3c;"></span>
+                                <span class="color-option" style="background: #3498db;"></span>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="product-price">
+                                <span class="current-price">₹1,999</span>
+                                <span class="original-price">₹2,499</span>
+                                <span class="discount">20% OFF</span>
+                            </div>
+                            <div class="product-stock">
+                                <i class="fas fa-check-circle"></i>
+                                <span>In Stock</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product Card 2 -->
+                <div class="product-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="product-image">
+                        <span class="product-badge">Best Seller</span>
+                        <img src="images/product-2.jpg" alt="Urban Backpack">
+                        <div class="product-actions">
+                            <button class="quickview-btn"><i class="fas fa-eye"></i></button>
+                            <button class="wishlist-btn"><i class="far fa-heart"></i></button>
+                            <button class="add-to-cart"><i class="fas fa-shopping-cart"></i></button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <div>
+                            <span class="product-category">Bags</span>
+                            <h3 class="product-title">Urban Backpack</h3>
+                            <div class="product-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <span>(5.0)</span>
+                            </div>
+                            <div class="product-colors">
+                                <span class="color-option active" style="background: #34495e;"></span>
+                                <span class="color-option" style="background: #95a5a6;"></span>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="product-price">
+                                <span class="current-price">₹1,499</span>
+                                <span class="original-price">₹1,999</span>
+                                <span class="discount">25% OFF</span>
+                            </div>
+                            <div class="product-stock low">
+                                <i class="fas fa-exclamation-circle"></i>
+                                <span>Low Stock</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product Card 3 -->
+                <div class="product-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="product-image">
+                        <span class="product-badge">Trending</span>
+                        <img src="images/product-3.jpg" alt="Aviator Sunglasses">
+                        <div class="product-actions">
+                            <button class="quickview-btn"><i class="fas fa-eye"></i></button>
+                            <button class="wishlist-btn"><i class="far fa-heart"></i></button>
+                            <button class="add-to-cart"><i class="fas fa-shopping-cart"></i></button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <div>
+                            <span class="product-category">Sunglasses</span>
+                            <h3 class="product-title">Aviator Sunglasses</h3>
+                            <div class="product-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <span>(4.0)</span>
+                            </div>
+                            <div class="product-colors">
+                                <span class="color-option active" style="background: #1abc9c;"></span>
+                                <span class="color-option" style="background: #e67e22;"></span>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="product-price">
+                                <span class="current-price">₹999</span>
+                                <span class="original-price">₹1,499</span>
+                                <span class="discount">33% OFF</span>
+                            </div>
+                            <div class="product-stock">
+                                <i class="fas fa-check-circle"></i>
+                                <span>In Stock</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product Card 4 -->
+                <div class="product-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="product-image">
+                        <span class="product-badge">Limited</span>
+                        <img src="images/product-4.jpg" alt="Smart Band">
+                        <div class="product-actions">
+                            <button class="quickview-btn"><i class="fas fa-eye"></i></button>
+                            <button class="wishlist-btn"><i class="far fa-heart"></i></button>
+                            <button class="add-to-cart"><i class="fas fa-shopping-cart"></i></button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <div>
+                            <span class="product-category">Accessories</span>
+                            <h3 class="product-title">Smart Band</h3>
+                            <div class="product-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <span>(5.0)</span>
+                            </div>
+                            <div class="product-colors">
+                                <span class="color-option active" style="background: #9b59b6;"></span>
+                                <span class="color-option" style="background: #16a085;"></span>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="product-price">
+                                <span class="current-price">₹799</span>
+                                <span class="original-price">₹999</span>
+                                <span class="discount">20% OFF</span>
+                            </div>
+                            <div class="product-stock out">
+                                <i class="fas fa-times-circle"></i>
+                                <span>Out of Stock</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Instagram Feed -->
+    <section class="instagram-feed">
+        <div class="container">
+            <h2>Follow Us on Instagram</h2>
+            <p>Get inspired by our latest fashion trends and lifestyle updates</p>
+            <div class="instagram-grid">
+                <div class="instagram-item">
+                    <img src="images/insta-1.jpg" alt="StyleHub Instagram Post 1">
+                    <div class="instagram-overlay">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="instagram-item">
+                    <img src="images/insta-2.jpg" alt="StyleHub Instagram Post 2">
+                    <div class="instagram-overlay">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="instagram-item">
+                    <img src="images/insta-3.jpg" alt="StyleHub Instagram Post 3">
+                    <div class="instagram-overlay">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="instagram-item">
+                    <img src="images/insta-4.jpg" alt="StyleHub Instagram Post 4">
+                    <div class="instagram-overlay">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="instagram-follow">
+                <p>Join our community of fashion enthusiasts</p>
+                <a href="#" class="follow-btn">
+                    <i class="fab fa-instagram"></i>
+                    Follow @stylehub
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter">
+        <div class="container">
+            <div class="newsletter-content">
+                <h2>Subscribe to Our Newsletter</h2>
+                <p>Get the latest updates on new products and upcoming sales</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Enter your email">
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>About StyleHub</h3>
+                    <p>StyleHub is your one-stop destination for trendy fashion and accessories. We offer a curated collection of high-quality products that help you express your unique style.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Our Story</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Press</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Customer Service</h3>
+                    <ul>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Shipping Policy</a></li>
+                        <li><a href="#">Returns & Exchanges</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Track Order</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Info</h3>
+                    <div class="contact-info">
+                        <p><i class="fas fa-map-marker-alt"></i> 123 Fashion Street, New York, NY 10001</p>
+                        <p><i class="fas fa-phone"></i> +1 (555) 123-4567</p>
+                        <p><i class="fas fa-envelope"></i> info@stylehub.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 StyleHub. All rights reserved. <a href="#">Privacy Policy</a> • <a href="#">Terms of Service</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Quick View Modal -->
+    <div class="modal" id="quickviewModal">
+        <div class="modal-content">
+            <button class="close-modal"><i class="fas fa-times"></i></button>
+            <div class="quickview-grid">
+                <div class="quickview-image">
+                    <img src="images/product-1.jpg" alt="Reflex 3.0 Smart Watch">
+                    <div class="quickview-thumbnails">
+                        <div class="thumbnail active">
+                            <img src="images/product-1.jpg" alt="Reflex 3.0 Smart Watch">
+                        </div>
+                        <div class="thumbnail">
+                            <img src="images/product-1-2.jpg" alt="Reflex 3.0 Smart Watch">
+                        </div>
+                        <div class="thumbnail">
+                            <img src="images/product-1-3.jpg" alt="Reflex 3.0 Smart Watch">
+                        </div>
+                    </div>
+                </div>
+                <div class="quickview-details">
+                    <h2>Reflex 3.0 Smart Watch</h2>
+                    <div class="price">
+                        <span class="current-price">₹1,999</span>
+                        <span class="original-price">₹2,499</span>
+                        <span class="discount">20% OFF</span>
+                    </div>
+                    <div class="product-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <span>(4.5)</span>
+                    </div>
+                    <p class="description">Experience the future of smart wearables with the Reflex 3.0 Smart Watch. This cutting-edge device combines style and functionality, offering advanced health tracking, notifications, and seamless connectivity.</p>
+                    
+                    <div class="quickview-options">
+                        <div class="option-group">
+                            <h3>Color</h3>
+                            <div class="color-options">
+                                <span class="color-option active" style="background: #2c3e50;"></span>
+                                <span class="color-option" style="background: #e74c3c;"></span>
+                                <span class="color-option" style="background: #3498db;"></span>
+                            </div>
+                        </div>
+                        <div class="option-group">
+                            <h3>Size</h3>
+                            <div class="size-options">
+                                <span class="size-option active">Small</span>
+                                <span class="size-option">Medium</span>
+                                <span class="size-option">Large</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="quickview-actions">
+                        <div class="quantity">
+                            <button class="qty-btn minus"><i class="fas fa-minus"></i></button>
+                            <input type="number" value="1" min="1" max="10">
+                            <button class="qty-btn plus"><i class="fas fa-plus"></i></button>
+                        </div>
+                        <button class="add-to-cart-btn">
+                            <i class="fas fa-shopping-cart"></i>
+                            Add to Cart
+                        </button>
+                        <button class="wishlist-btn">
+                            <i class="far fa-heart"></i>
+                        </button>
+                    </div>
+
+                    <div class="product-meta">
+                        <div class="meta-item">
+                            <i class="fas fa-truck"></i>
+                            <span>Free shipping on orders over ₹2,999</span>
+                        </div>
+                        <div class="meta-item">
+                            <i class="fas fa-undo"></i>
+                            <span>30-day easy returns</span>
+                        </div>
+                        <div class="meta-item">
+                            <i class="fas fa-shield-alt"></i>
+                            <span>Secure payment</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Shopping Cart Overlay -->
+    <div class="cart-overlay" id="cartOverlay">
+        <div class="cart-header">
+            <h3>Shopping Cart</h3>
+            <button class="close-cart" id="closeCart">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+        <div class="cart-items">
+            <!-- Cart Item 1 -->
+            <div class="cart-item">
+                <div class="cart-item-image">
+                    <img src="images/product-1.jpg" alt="Reflex 3.0 Smart Watch">
+                </div>
+                <div class="cart-item-details">
+                    <h4 class="cart-item-title">Reflex 3.0 Smart Watch</h4>
+                    <p class="cart-item-variant">Color: Black, Size: Medium</p>
+                    <div class="cart-item-price">₹1,999</div>
+                    <div class="cart-item-quantity">
+                        <button class="quantity-btn minus"><i class="fas fa-minus"></i></button>
+                        <input type="number" class="quantity-input" value="1" min="1" max="10">
+                        <button class="quantity-btn plus"><i class="fas fa-plus"></i></button>
+                    </div>
+                </div>
+                <button class="remove-item">
+                    <i class="fas fa-trash-alt"></i>
+                </button>
+            </div>
+
+            <!-- Cart Item 2 -->
+            <div class="cart-item">
+                <div class="cart-item-image">
+                    <img src="images/product-2.jpg" alt="Urban Backpack">
+                </div>
+                <div class="cart-item-details">
+                    <h4 class="cart-item-title">Urban Backpack</h4>
+                    <p class="cart-item-variant">Color: Navy Blue</p>
+                    <div class="cart-item-price">₹1,499</div>
+                    <div class="cart-item-quantity">
+                        <button class="quantity-btn minus"><i class="fas fa-minus"></i></button>
+                        <input type="number" class="quantity-input" value="1" min="1" max="10">
+                        <button class="quantity-btn plus"><i class="fas fa-plus"></i></button>
+                    </div>
+                </div>
+                <button class="remove-item">
+                    <i class="fas fa-trash-alt"></i>
+                </button>
+            </div>
+        </div>
+        <div class="cart-summary">
+            <div class="summary-row">
+                <span>Subtotal</span>
+                <span>₹3,498</span>
+            </div>
+            <div class="summary-row">
+                <span>Shipping</span>
+                <span>Free</span>
+            </div>
+            <div class="summary-row">
+                <span>Tax</span>
+                <span>₹349.80</span>
+            </div>
+            <div class="summary-row total">
+                <span>Total</span>
+                <span>₹3,847.80</span>
+            </div>
+            <button class="checkout-btn">
+                <i class="fas fa-lock"></i>
+                Proceed to Checkout
+            </button>
+        </div>
+    </div>
+
+    <!-- Empty Cart State -->
+    <div class="cart-overlay" id="emptyCartOverlay">
+        <div class="cart-header">
+            <h3>Shopping Cart</h3>
+            <button class="close-cart" id="closeEmptyCart">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+        <div class="empty-cart">
+            <i class="fas fa-shopping-cart"></i>
+            <p>Your cart is empty</p>
+            <p>Looks like you haven't added anything to your cart yet.</p>
+            <a href="shop.html" class="continue-shopping">
+                Continue Shopping
+            </a>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="script.js"></script>
+    <script src="cart.js"></script>
+    <script src="quickview.js"></script>
+</body>
+</html> 

@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop - StyleHub</title>
+    <link rel="stylesheet" href="../../css/style.css">
+    <link rel="stylesheet" href="../../css/shop.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Shop Header -->
+    <div class="shop-header">
+        <div class="container">
+            <div class="header-content">
+                <h1>New Arrivals</h1>
+                <div class="breadcrumb">
+                    <a href="../index.html">Home</a>
+                    <i class="fas fa-chevron-right"></i>
+                    <span>Shop</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Shop Content -->
+    <main class="shop-main">
+        <div class="container">
+            <div class="shop-layout">
+                <!-- Filters Sidebar -->
+                <aside class="shop-filters">
+                    <div class="filter-header">
+                        <h3>Filters</h3>
+                        <button class="clear-filters">Clear All</button>
+                    </div>
+
+                    <!-- Categories Filter -->
+                    <div class="filter-section">
+                        <h4>Categories</h4>
+                        <div class="filter-options">
+                            <label class="filter-option">
+                                <input type="checkbox" name="category" value="clothing">
+                                <span>Clothing</span>
+                                <span class="count">(245)</span>
+                            </label>
+                            <label class="filter-option">
+                                <input type="checkbox" name="category" value="shoes">
+                                <span>Shoes</span>
+                                <span class="count">(182)</span>
+                            </label>
+                            <label class="filter-option">
+                                <input type="checkbox" name="category" value="accessories">
+                                <span>Accessories</span>
+                                <span class="count">(167)</span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <!-- Price Range Filter -->
+                    <div class="filter-section">
+                        <h4>Price Range</h4>
+                        <div class="price-range">
+                            <div class="range-slider">
+                                <input type="range" min="0" max="1000" value="500" class="range">
+                            </div>
+                            <div class="range-inputs">
+                                <input type="number" value="0" min="0" max="1000">
+                                <span>to</span>
+                                <input type="number" value="1000" min="0" max="1000">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Size Filter -->
+                    <div class="filter-section">
+                        <h4>Size</h4>
+                        <div class="size-options">
+                            <button class="size-btn">XS</button>
+                            <button class="size-btn">S</button>
+                            <button class="size-btn">M</button>
+                            <button class="size-btn">L</button>
+                            <button class="size-btn">XL</button>
+                            <button class="size-btn">XXL</button>
+                        </div>
+                    </div>
+
+                    <!-- Color Filter -->
+                    <div class="filter-section">
+                        <h4>Color</h4>
+                        <div class="color-options">
+                            <button class="color-btn" style="background: #000;" data-color="Black"></button>
+                            <button class="color-btn" style="background: #fff;" data-color="White"></button>
+                            <button class="color-btn" style="background: #ff4d4d;" data-color="Red"></button>
+                            <button class="color-btn" style="background: #4d4dff;" data-color="Blue"></button>
+                            <button class="color-btn" style="background: #4dff4d;" data-color="Green"></button>
+                        </div>
+                    </div>
+                </aside>
+
+                <!-- Products Grid -->
+                <div class="products-section">
+                    <!-- Sort and View Options -->
+                    <div class="products-header">
+                        <div class="products-count">
+                            <span>Showing 1-12 of 256 products</span>
+                        </div>
+                        <div class="products-sort">
+                            <select class="sort-select">
+                                <option value="newest">Newest First</option>
+                                <option value="price-low">Price: Low to High</option>
+                                <option value="price-high">Price: High to Low</option>
+                                <option value="popular">Most Popular</option>
+                            </select>
+                            <div class="view-options">
+                                <button class="view-btn active" data-view="grid">
+                                    <i class="fas fa-grid-2"></i>
+                                </button>
+                                <button class="view-btn" data-view="list">
+                                    <i class="fas fa-list"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Products Grid -->
+                    <div class="products-grid">
+                        <!-- Product Card -->
+                        <div class="product-card">
+                            <a href="../product.html" class="product-link">
+                                <div class="product-image">
+                                    <img src="../../assets/products/product1.jpg" alt="Premium Cotton T-Shirt">
+                                </div>
+                                <div class="product-info">
+                                    <h3 class="product-name">Premium Cotton T-Shirt</h3>
+                                    <div class="product-price">
+                                        <span class="current">$49.99</span>
+                                        <span class="original">$69.99</span>
+                                    </div>
+                                    <div class="product-rating">
+                                        <div class="stars">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star-half-alt"></i>
+                                        </div>
+                                        <span class="rating-count">(128)</span>
+                                    </div>
+                                </div>
+                            </a>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+                        <!-- Repeat Product Card for grid -->
+                    </div>
+
+                    <!-- Pagination -->
+                    <div class="pagination">
+                        <button class="page-btn prev">
+                            <i class="fas fa-chevron-left"></i>
+                        </button>
+                        <div class="page-numbers">
+                            <button class="page-btn active">1</button>
+                            <button class="page-btn">2</button>
+                            <button class="page-btn">3</button>
+                            <span class="page-dots">...</span>
+                            <button class="page-btn">12</button>
+                        </div>
+                        <button class="page-btn next">
+                            <i class="fas fa-chevron-right"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html> 

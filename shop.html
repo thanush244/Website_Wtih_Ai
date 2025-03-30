@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop - StyleHub</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Section (Same as index.html) -->
+    <header>
+        <!-- Copy the header section from index.html -->
+    </header>
+
+    <!-- Shop Hero Section -->
+    <section class="shop-hero">
+        <div class="container">
+            <div class="shop-hero-content">
+                <h1>Our Collection</h1>
+                <div class="breadcrumb">
+                    <a href="index.html">Home</a>
+                    <i class="fas fa-chevron-right"></i>
+                    <span>Shop</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Shop Section -->
+    <section class="shop-section">
+        <div class="container">
+            <div class="shop-layout">
+                <!-- Sidebar -->
+                <aside class="shop-sidebar">
+                    <div class="sidebar-widget">
+                        <h3>Categories</h3>
+                        <ul class="category-list">
+                            <li><a href="#" class="active">All Products</a></li>
+                            <li><a href="#">Smart Watches</a></li>
+                            <li><a href="#">Bags</a></li>
+                            <li><a href="#">Sunglasses</a></li>
+                            <li><a href="#">Accessories</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="sidebar-widget">
+                        <h3>Price Range</h3>
+                        <div class="price-range">
+                            <input type="range" min="0" max="10000" value="5000" class="price-slider">
+                            <div class="price-inputs">
+                                <input type="number" value="0" min="0" max="10000">
+                                <span>to</span>
+                                <input type="number" value="5000" min="0" max="10000">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="sidebar-widget">
+                        <h3>Brands</h3>
+                        <div class="brand-filters">
+                            <label class="checkbox-label">
+                                <input type="checkbox" checked>
+                                <span>StyleHub</span>
+                            </label>
+                            <label class="checkbox-label">
+                                <input type="checkbox">
+                                <span>TechFit</span>
+                            </label>
+                            <label class="checkbox-label">
+                                <input type="checkbox">
+                                <span>UrbanStyle</span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="sidebar-widget">
+                        <h3>Colors</h3>
+                        <div class="color-filters">
+                            <span class="color-option active" style="background: #2c3e50;"></span>
+                            <span class="color-option" style="background: #e74c3c;"></span>
+                            <span class="color-option" style="background: #3498db;"></span>
+                            <span class="color-option" style="background: #2ecc71;"></span>
+                            <span class="color-option" style="background: #f1c40f;"></span>
+                        </div>
+                    </div>
+
+                    <div class="sidebar-widget">
+                        <h3>Featured Products</h3>
+                        <div class="featured-products">
+                            <div class="featured-product">
+                                <img src="images/product-1.jpg" alt="Featured Product">
+                                <div class="featured-product-info">
+                                    <h4>Reflex 3.0 Smart Watch</h4>
+                                    <span class="price">₹1,999</span>
+                                </div>
+                            </div>
+                            <div class="featured-product">
+                                <img src="images/product-2.jpg" alt="Featured Product">
+                                <div class="featured-product-info">
+                                    <h4>Urban Backpack</h4>
+                                    <span class="price">₹1,499</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </aside>
+
+                <!-- Main Content -->
+                <main class="shop-main">
+                    <div class="shop-header">
+                        <div class="shop-filters">
+                            <button class="filter-btn active" data-filter="grid">
+                                <i class="fas fa-th"></i>
+                            </button>
+                            <button class="filter-btn" data-filter="list">
+                                <i class="fas fa-list"></i>
+                            </button>
+                        </div>
+                        <div class="shop-sort">
+                            <select>
+                                <option value="featured">Featured</option>
+                                <option value="price-low">Price: Low to High</option>
+                                <option value="price-high">Price: High to Low</option>
+                                <option value="newest">Newest First</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="product-grid">
+                        <!-- Product Card 1 -->
+                        <div class="product-card" data-product-id="1">
+                            <div class="product-badge">New</div>
+                            <div class="product-image">
+                                <img src="images/product-1.jpg" alt="Reflex 3.0 Smart Watch">
+                                <div class="product-actions">
+                                    <button class="action-btn" title="Quick View">
+                                        <i class="fas fa-eye"></i>
+                                    </button>
+                                    <button class="action-btn wishlist-btn" title="Add to Wishlist">
+                                        <i class="fas fa-heart"></i>
+                                    </button>
+                                    <button class="action-btn add-to-cart" title="Add to Cart">
+                                        <i class="fas fa-shopping-cart"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="product-info">
+                                <div class="product-category">Smart Watches</div>
+                                <h3 class="product-title">Reflex 3.0 Smart Watch</h3>
+                                <div class="product-price">
+                                    <span class="current-price">₹1,999</span>
+                                    <span class="original-price">₹2,499</span>
+                                </div>
+                                <div class="product-rating">
+                                    <div class="stars">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half-alt"></i>
+                                    </div>
+                                    <span class="rating-count">(24)</span>
+                                </div>
+                                <div class="product-colors">
+                                    <span class="color-option" style="background: #2c3e50;"></span>
+                                    <span class="color-option" style="background: #e74c3c;"></span>
+                                    <span class="color-option" style="background: #3498db;"></span>
+                                </div>
+                                <div class="stock-status in-stock">
+                                    <i class="fas fa-check-circle"></i>
+                                    In Stock
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Product Card 2 -->
+                        <div class="product-card" data-product-id="2">
+                            <div class="product-badge">Best Seller</div>
+                            <div class="product-image">
+                                <img src="images/product-2.jpg" alt="Urban Backpack">
+                                <div class="product-actions">
+                                    <button class="action-btn" title="Quick View">
+                                        <i class="fas fa-eye"></i>
+                                    </button>
+                                    <button class="action-btn wishlist-btn" title="Add to Wishlist">
+                                        <i class="fas fa-heart"></i>
+                                    </button>
+                                    <button class="action-btn add-to-cart" title="Add to Cart">
+                                        <i class="fas fa-shopping-cart"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="product-info">
+                                <div class="product-category">Bags</div>
+                                <h3 class="product-title">Urban Backpack</h3>
+                                <div class="product-price">
+                                    <span class="current-price">₹1,499</span>
+                                </div>
+                                <div class="product-rating">
+                                    <div class="stars">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                    <span class="rating-count">(18)</span>
+                                </div>
+                                <div class="product-colors">
+                                    <span class="color-option" style="background: #2c3e50;"></span>
+                                    <span class="color-option" style="background: #34495e;"></span>
+                                </div>
+                                <div class="stock-status in-stock">
+                                    <i class="fas fa-check-circle"></i>
+                                    In Stock
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Product Card 3 -->
+                        <div class="product-card" data-product-id="3">
+                            <div class="product-badge">Trending</div>
+                            <div class="product-image">
+                                <img src="images/product-3.jpg" alt="Aviator Sunglasses">
+                                <div class="product-actions">
+                                    <button class="action-btn" title="Quick View">
+                                        <i class="fas fa-eye"></i>
+                                    </button>
+                                    <button class="action-btn wishlist-btn" title="Add to Wishlist">
+                                        <i class="fas fa-heart"></i>
+                                    </button>
+                                    <button class="action-btn add-to-cart" title="Add to Cart">
+                                        <i class="fas fa-shopping-cart"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="product-info">
+                                <div class="product-category">Sunglasses</div>
+                                <h3 class="product-title">Aviator Sunglasses</h3>
+                                <div class="product-price">
+                                    <span class="current-price">₹2,499</span>
+                                    <span class="original-price">₹3,499</span>
+                                </div>
+                                <div class="product-rating">
+                                    <div class="stars">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                    <span class="rating-count">(32)</span>
+                                </div>
+                                <div class="product-colors">
+                                    <span class="color-option" style="background: #2c3e50;"></span>
+                                    <span class="color-option" style="background: #e74c3c;"></span>
+                                    <span class="color-option" style="background: #f1c40f;"></span>
+                                </div>
+                                <div class="stock-status low-stock">
+                                    <i class="fas fa-exclamation-circle"></i>
+                                    Only 3 Left
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Product Card 4 -->
+                        <div class="product-card" data-product-id="4">
+                            <div class="product-badge">Limited</div>
+                            <div class="product-image">
+                                <img src="images/product-4.jpg" alt="Wireless Earbuds">
+                                <div class="product-actions">
+                                    <button class="action-btn" title="Quick View">
+                                        <i class="fas fa-eye"></i>
+                                    </button>
+                                    <button class="action-btn wishlist-btn" title="Add to Wishlist">
+                                        <i class="fas fa-heart"></i>
+                                    </button>
+                                    <button class="action-btn add-to-cart" title="Add to Cart">
+                                        <i class="fas fa-shopping-cart"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="product-info">
+                                <div class="product-category">Accessories</div>
+                                <h3 class="product-title">Wireless Earbuds</h3>
+                                <div class="product-price">
+                                    <span class="current-price">₹3,999</span>
+                                </div>
+                                <div class="product-rating">
+                                    <div class="stars">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                    <span class="rating-count">(45)</span>
+                                </div>
+                                <div class="product-colors">
+                                    <span class="color-option" style="background: #2c3e50;"></span>
+                                    <span class="color-option" style="background: #e74c3c;"></span>
+                                    <span class="color-option" style="background: #3498db;"></span>
+                                </div>
+                                <div class="stock-status out-of-stock">
+                                    <i class="fas fa-times-circle"></i>
+                                    Out of Stock
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Add more product cards as needed -->
+                    </div>
+
+                    <div class="pagination">
+                        <button class="page-btn prev"><i class="fas fa-chevron-left"></i></button>
+                        <div class="page-numbers">
+                            <span class="page-number active">1</span>
+                            <span class="page-number">2</span>
+                            <span class="page-number">3</span>
+                            <span class="page-number">4</span>
+                            <span class="page-number">5</span>
+                        </div>
+                        <button class="page-btn next"><i class="fas fa-chevron-right"></i></button>
+                    </div>
+                </main>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section (Same as index.html) -->
+    <section class="newsletter">
+        <!-- Copy the newsletter section from index.html -->
+    </section>
+
+    <!-- Footer (Same as index.html) -->
+    <footer>
+        <!-- Copy the footer section from index.html -->
+    </footer>
+
+    <!-- Shopping Cart Overlay (Same as index.html) -->
+    <div class="cart-overlay" id="cartOverlay">
+        <!-- Copy the cart overlay section from index.html -->
+    </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="script.js"></script>
+    <script src="shop.js"></script>
+</body>
+</html> 

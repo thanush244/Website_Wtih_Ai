@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Men's Fashion - StyleHub</title>
+    <link rel="stylesheet" href="../../css/style.css">
+    <link rel="stylesheet" href="../../css/category.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Include Navigation -->
+
+    <main class="category-page">
+        <div class="category-header">
+            <div class="container">
+                <h1>Men's Fashion</h1>
+                <div class="breadcrumb">
+                    <a href="../../index.html">Home</a> /
+                    <a href="../shop.html">Shop</a> /
+                    <span>Men</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="category-layout">
+                <!-- Filters Sidebar -->
+                <aside class="category-filters">
+                    <div class="filter-group">
+                        <h3>Categories</h3>
+                        <ul>
+                            <li><a href="#" class="active">All Men's</a></li>
+                            <li><a href="#">T-Shirts</a></li>
+                            <li><a href="#">Shirts</a></li>
+                            <li><a href="#">Jeans</a></li>
+                            <li><a href="#">Jackets</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="filter-group">
+                        <h3>Price Range</h3>
+                        <div class="price-slider">
+                            <input type="range" min="0" max="1000" value="500">
+                            <div class="price-inputs">
+                                <input type="number" value="0" min="0">
+                                <span>to</span>
+                                <input type="number" value="500" max="1000">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="filter-group">
+                        <h3>Size</h3>
+                        <div class="size-options">
+                            <label><input type="checkbox"> S</label>
+                            <label><input type="checkbox"> M</label>
+                            <label><input type="checkbox"> L</label>
+                            <label><input type="checkbox"> XL</label>
+                        </div>
+                    </div>
+
+                    <div class="filter-group">
+                        <h3>Color</h3>
+                        <div class="color-options">
+                            <label class="color-option">
+                                <input type="checkbox">
+                                <span style="background: #000;"></span>
+                                Black
+                            </label>
+                            <label class="color-option">
+                                <input type="checkbox">
+                                <span style="background: #fff; border: 1px solid #ddd;"></span>
+                                White
+                            </label>
+                            <!-- Add more colors -->
+                        </div>
+                    </div>
+                </aside>
+
+                <!-- Products Grid -->
+                <div class="category-products">
+                    <div class="products-header">
+                        <div class="products-count">
+                            Showing <span>12</span> of <span>36</span> products
+                        </div>
+                        <div class="products-sort">
+                            <select>
+                                <option>Sort by: Featured</option>
+                                <option>Price: Low to High</option>
+                                <option>Price: High to Low</option>
+                                <option>Newest First</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="products-grid">
+                        <!-- Product Cards (similar to shop page) -->
+                    </div>
+
+                    <!-- Pagination -->
+                    <div class="pagination">
+                        <button class="page-btn prev"><i class="fas fa-chevron-left"></i></button>
+                        <button class="page-btn active">1</button>
+                        <button class="page-btn">2</button>
+                        <button class="page-btn">3</button>
+                        <span class="page-dots">...</span>
+                        <button class="page-btn">8</button>
+                        <button class="page-btn next"><i class="fas fa-chevron-right"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html> 

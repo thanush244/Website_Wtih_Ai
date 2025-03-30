@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="240" height="240" viewBox="0 0 240 240" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Circle -->
+  <circle cx="120" cy="120" r="100" fill="url(#gradient)" />
+  
+  <!-- Stylized 'S' letter -->
+  <path d="M90 90C90 84 94 80 100 80H140V100H105C105 100 105 110 105 112C105 114 107 116 110 116H140V136H110C97 136 90 126 90 115V90Z" fill="white"/>
+  
+  <!-- Horizontal Bar -->
+  <rect x="90" y="150" width="70" height="18" rx="6" fill="white"/>
+  
+  <!-- Gradient Definition -->
+  <defs>
+    <linearGradient id="gradient" x1="0" y1="0" x2="240" y2="240" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#2c3e50" />
+      <stop offset="100%" stop-color="#3498db" />
+    </linearGradient>
+  </defs>
+</svg> 
